@@ -1,0 +1,23 @@
+{
+  "name": "WebinarEBAC_Cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriPaz/WebinarEBAC_Cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuriPaz/WebinarEBAC_Cypress/issues"
+  },
+  "homepage": "https://github.com/YuriPaz/WebinarEBAC_Cypress#readme",
+  "devDependencies": {
+    "cypress": "^8.5.0"
+  }
+}
