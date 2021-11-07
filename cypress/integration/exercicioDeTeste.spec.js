@@ -4,7 +4,17 @@ describe('Exercicio de entrada e saída de dados', () => {
     cy.visit('https://devfinances.tk/#/');
   });
 
-  it('Teste de Entrada de Dados', () => {});
+  it.only('Teste de Entrada de Dados', () => {
+    cy.get('.add-button-fixed').click();
+
+    cy.contains('a', 'Crédito').click();
+
+    cy.get('#description').type('Salário');
+
+    cy.get('#amount').clear().type('5000');
+
+    cy.contains('button', 'Salvar').click();
+  });
 
   it('Teste de exclusão de dados', () => {});
 });
